@@ -22,7 +22,12 @@ export default defineNuxtConfig({
     dirs: ['~/components']
   },
 
-  modules: ['@nuxt/ui', '@nuxtjs/color-mode', '@nuxt/eslint'],
+  modules: [
+    '@nuxt/ui',
+    '@nuxtjs/color-mode',
+    '@nuxt/eslint',
+    '@nuxtjs/storybook'
+  ],
 
   colorMode: {
     preference: 'system',
